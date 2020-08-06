@@ -19,4 +19,6 @@ Route::get('/', 'HomeController@get_index');
 
 Route::get('/home', 'HomeController@get_index');
 Route::get('/blog', 'BlogController@get_index');
-Route::get('/contact', 'ContactController@get_index');
+
+        Route::get('/contact', 'ContactController@get_index');
+	Route::post('/contact/post_save_message/', 'ContactController@post_save_message');

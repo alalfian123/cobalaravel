@@ -40,7 +40,7 @@
         <link rel="stylesheet" href="{{ URL::to('css/flexslider.css') }}">
 	<!-- Theme style  -->
         <link rel="stylesheet" href="{{ URL::to('css/style.css') }}">
-
+        
 	<!-- Modernizr JS -->
         <script type="text/javascript"  src="{{ URL::to('js/modernizr-2.6.2.min.js') }}"></script>
 	<!-- FOR IE9 below -->
@@ -69,7 +69,10 @@
         <script src="{{ URL::to('js/jquery.waypoints.min.js') }}"></script>
 	<!-- Flexslider -->
         <script src="{{ URL::to('js/jquery.flexslider-min.js') }}"></script>
-	
+	<!-- validate style  -->
+        <script type="text/javascript" src="{{ URL::to('js/jquery.validate.min.js') }}"></script>
+        <!-- validate style  -->
+        <script src="{{ URL::to('js/bootbox.min.js') }}"></script>
 	
 	<!-- MAIN JS -->
         <script src="{{ URL::to('js/main.js') }}"></script>
